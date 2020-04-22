@@ -19,7 +19,7 @@ import sandbox.WrapToTest;
 @WrapToTest
 public class LargeImage1 {
 
-    public static final String SRC = "resources/pdfs/large_image.pdf";
+    public static final String SRC = "http://olayc.oss-cn-beijing.aliyuncs.com/D1E0FE3F018E2A0F11BB28065EEC20F6.jpg?Expires=1874733500&OSSAccessKeyId=LTAIBvzNg84oa7bM&Signature=AthlUvGcx4Zw2QVTHmbhFC9AJ%2Fs%3D";
     public static final String DEST = "results/images/large_image1.pdf";
     
     public static void main(String[] args) throws DocumentException, IOException {
