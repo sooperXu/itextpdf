@@ -1,0 +1,10 @@
+这是Index HTML页面
+<header th:replace="common :: div1"></header>
+下一个
+<div th:replace="common :: div2"></div>
+<p><label th:text="#{welcome}"></label></p>
+<span class="ib"><a th:href="@{/(lang=zh_CN)}">中文</a></span>
+<span class="ib ml20"><a th:href="@{/(lang=en_US)}">英文</a></span>
+<span class="ib ml20"><a href="/test">测试接口</a></span>
+<span class="ib ml20"><img href="http://olayc.oss-cn-beijing.aliyuncs.com/D1E0FE3F018E2A0F11BB28065EEC20F6.jpg?Expires=1874733500&OSSAccessKeyId=LTAIBvzNg84oa7bM&Signature=AthlUvGcx4Zw2QVTHmbhFC9AJ%2Fs%3D">测试图片</ing></span>
+
